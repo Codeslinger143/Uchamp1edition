@@ -1,0 +1,42 @@
+<nav style="background-color: #014749;  width: 100%; " class="navbar navbar-expand-lg navbar-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home"><b>UCHAMP ONE</b></a>
+    <span class="flex-spacer"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main_nav" style="margin:auto ;">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#" style="color: white;" > About </a></li>
+        <li class="nav-item dropdown" id="myDropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"  > Uchamp One </a>
+          <ul class="dropdown-menu" style="background-color: #014749;">
+            <li> <a class="dropdown-item" style="color: white;" href="#"> Uchamp Academy &raquo; </a>
+              <ul class="submenu dropdown-menu" style="background-color: #014749;">
+                <li><a class="dropdown-item" style="color: white;" href="#">Uchamp Junior </a></li>
+                <li><a class="dropdown-item" style="color: white;" href="#">Uchamp Senior</a></li>
+                <li><a class="dropdown-item" style="color: white;" href="#">Uchamp Fresher</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" style="color: white;" href="#"> Uchamp Campus </a></li>
+            <li><a class="dropdown-item" style="color: white;" href="#"> Uchamp Seek </a></li>
+          </ul>
+        </li>
+        <li class="nav-item" ><a class="nav-link" style="color: white;" href="#"> Events/workshops</a></li>
+        <li class="nav-item"><a class="nav-link " style="color: white;" href="#"> Projects </a></li>
+        <li class="nav-item"><a  routerLink="/community" class="nav-link" style="color: white;"> Community </a></li>
+        <li class="nav-item"><a class="nav-link" href="#" style="color: white;"> Blog </a></li>
+        <li class="nav-item"><a class="nav-link" (click)="openloginform()"   style="cursor:pointer; border: 1px solid white;border-radius: 5px; color: white; margin: 0 5px;"> Sign Up for Early Access </a></li>
+        <li class="nav-item dropdown" id="myDropdown" >
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="color: white;">  Let's Team Up </a>
+          <ul class="dropdown-menu" style="background-color: #014749;">
+            <li> <a class="dropdown-item" style="color: white;" href="#"> Join as industry mentor </a></li>
+            <li> <a class="dropdown-item" style="color: white;" href="#"> Join as Faculty Trainer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- navbar-collapse.// -->
+  </div>
+  <!-- container-fluid.// -->
+</nav>

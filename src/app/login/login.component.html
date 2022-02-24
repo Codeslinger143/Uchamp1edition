@@ -1,0 +1,25 @@
+<mat-toolbar style="background-color: #057a7e; ">
+    Login
+    <span class="flex-spacer"></span>
+    <button mat-raised-button mat-dialog-close> &times;</button>
+</mat-toolbar>
+
+<form novalidate>
+    <mat-dialog-content>
+        <p >
+            <mat-form-field>
+                <input type="text" matInput placeholder="Username" name="username">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input type="password" matInput placeholder="Password" name="password">
+            </mat-form-field> <br>
+            <mat-checkbox name="remember">Remember</mat-checkbox>
+        </p>
+    </mat-dialog-content>
+    <mat-dialog-actions>
+        <span class="flex-spacer"></span>
+        <button mat-raised-button mat-dialog-close>Cancel</button>
+        <button mat-raised-button mat-dialog-close type="submit">Login</button>
+    </mat-dialog-actions>
+</form>

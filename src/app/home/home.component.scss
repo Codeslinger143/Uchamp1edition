@@ -1,0 +1,81 @@
+.hvrbtn:hover{
+color: white;
+background-color: #014749;
+}
+
+.content{
+    padding: 6% 5% 2% 5%;
+    margin: 0 auto;
+}
+
+.cent{
+    text-align: center;
+}  
+.contacticon{ 
+    width: 70px;
+    height:70px;
+    position: fixed;left: 93%; top: 86%; cursor: pointer;border-radius: 80%;
+}
+
+.jc:hover{
+        color: white;
+        background-color: #057a7e;
+}
+
+.wrapper{
+    // background-color: red;
+    height: 40px;
+    box-sizing: content-box;
+    display: flex;
+    // background: purple;
+
+}
+
+.words{
+    overflow: hidden;
+}
+
+.anim1{
+    display: block;
+    height: 100%;
+    // border: 1px solid black;
+    animation: spin_words 9s ease forwards infinite;
+}
+
+@keyframes spin_words{
+    0%{
+        transform: translateY(-5%);
+
+    }
+    12%{
+    transform: translateY(-10%);
+    }
+
+    24%{
+    transform: translateY(5%);
+
+    }  
+    36%{
+    transform: translateY(-120%);
+}
+
+    49%{
+        transform: translateY(-105%);
+    }
+    60%{
+        transform: translateY(-210%);
+    }
+    72%{
+        transform: translateY(-190%);}
+    
+     86%{
+         transform: translateY(-290%);
+     }
+
+     100%{
+        transform: translateY(-285%);
+    }
+}
+
+        
+    

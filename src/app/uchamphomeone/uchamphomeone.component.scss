@@ -1,0 +1,13 @@
+.anim{
+    animation-name: mov;
+    animation-duration: 3s;
+}
+
+@keyframes mov{
+    from{
+transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
