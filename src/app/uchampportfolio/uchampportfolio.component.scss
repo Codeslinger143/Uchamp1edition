@@ -2,3 +2,16 @@
     color: white;
     background-color: #014749;
     }
+.card h2{
+    text-align: center;
+}
+.card{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 300px;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
