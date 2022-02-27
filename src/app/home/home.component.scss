@@ -3,9 +3,7 @@ color: white;
 background-color: #014749;
 }
 
-.sideimg:hover{
-transform: translate3d();
-}
+
 
 
 .content{
@@ -63,7 +61,7 @@ transform: translate3d();
     }  
     36%{
     transform: translateY(-120%);
-}
+    }
 
     49%{
         transform: translateY(-105%);
@@ -83,5 +81,44 @@ transform: translate3d();
     }
 }
 
-        
+
+   
+
+    @media  (max-width:984px) {
+        .sideimg{
+            width: 350px;
+        }
+    }
+
     
+@media  (max-width:761px) {
+    .sideimg{
+        width: 300px;
+    }   
+    .imgdiv{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:653px){
+    .imgdiv{
+        display: flex;
+        align-items: center;
+    }
+  
+    .sideimg{
+        width: 200px;
+            }
+
+}
+
+
+@media (max-width:435px){
+    .imgdiv{
+        display: block;
+        flex-direction: column-reverse;
+        
+    }
+   
+}

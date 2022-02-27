@@ -1,4 +1,19 @@
+.hvrbtn{
+    background-color:#f05d4d ;
+}
+
 .hvrbtn:hover{
     color: white;
     background-color: #014749;
     }
+.forallcard{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+    margin: 10px;
+    max-width: 300px;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5% 25% 15% 35%;
+    background-color: #facf5f;
+
+    // min-height:200px ;
+}

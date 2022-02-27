@@ -15,3 +15,9 @@ transform: translateX(-100%);
         transform: translateX(0);
     }
 }
+
+@media (max-width:653px){
+    .card{
+        box-shadow: 0 0 0;
+    }
+}
