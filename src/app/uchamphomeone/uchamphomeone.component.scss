@@ -1,11 +1,21 @@
 .anim{
     animation-name: mov;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 .card{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23) ;
+    margin: -6% 6% ; 
+    padding: 1% 3% 2% 5%; 
+    background-image:url(../../assets/images/wave1.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+background-size: cover;
 }
 
+ul li {
+    list-style: none;
+    // padding-bottom: 6px;
+}
 
 @keyframes mov{
     from{
